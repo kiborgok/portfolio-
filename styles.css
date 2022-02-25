@@ -12,5 +12,9 @@
 }
 
 .projects{
-    padding: 50px 30px;
+    margin-top: 40px;
+}
+
+.card{
+    margin: 20px;
 }
