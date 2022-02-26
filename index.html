@@ -29,8 +29,8 @@
         class="navbar navbar-expand-lg navbar-light"
         style="background-color: #5dc09c"
       >
-        <div class="container-fluid">
-          <a class="navbar-brand my-name" href="#">Alex</a>
+        <div class="container-fluid nav-p">
+          <a class="navbar-brand my-name" href="#">Alex Kiborgok</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -42,18 +42,21 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link" aria-current="page" href="#projects"
                   >Projects</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Me</a>
+                <a class="nav-link" href="#aboutme">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -79,7 +82,7 @@
           />
         </div>
       </div>
-      <div class="section d-flex flex-column p-5">
+      <div id="projects" class="section d-flex flex-column p-5">
         <div class="code-icon align-self-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
             <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -87,7 +90,7 @@
         </div>      
         <h1 class="align-self-center">Projects I've Built</h1>
         <p class="text-center">Here are the projects I have built.Each project has a descption of the languages</br>  used and what the project does.</p>
-        <div class="projects d-flex flex-row">
+        <div class="projects w-100 align-self-center d-flex flex-row flex-wrap justify-content-center">
           <div class="card" style="width: 18rem;">
             <img class="card-img-top" src="./images/burger.png" alt="Burger project">
             <div class="card-body">
@@ -136,7 +139,39 @@
               target="_blank" href="https://kiborgok.github.io/burger_palace/" class="card-link">Live link</a>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card justify" style="width: 18rem;">
+            <img class="card-img-top" src="./images/todos.png" alt="Burger project">
+            <div class="card-body">
+              <h5 class="card-title text-center">Burger project template</h5>
+              <p class="card-text text-center">
+                This is a burger project template built with pure HTML and CSS.
+                 It's responsive and displays well both on mobile and large desktop screens.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center">HTML | CSS</li>
+            </ul>
+            <div class="card-body text-center">
+              <a rel="noreferrer"
+              target="_blank" href="https://kiborgok.github.io/burger_palace/" class="card-link">Live link</a>
+            </div>
+          </div>
+          <div class="card justify" style="width: 18rem;">
+            <img class="card-img-top" src="./images/todos.png" alt="Burger project">
+            <div class="card-body">
+              <h5 class="card-title text-center">Burger project template</h5>
+              <p class="card-text text-center">
+                This is a burger project template built with pure HTML and CSS.
+                 It's responsive and displays well both on mobile and large desktop screens.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center">HTML | CSS</li>
+            </ul>
+            <div class="card-body text-center">
+              <a rel="noreferrer"
+              target="_blank" href="https://kiborgok.github.io/burger_palace/" class="card-link">Live link</a>
+            </div>
+          </div>
+          <div class="card justify" style="width: 18rem;">
             <img class="card-img-top" src="./images/todos.png" alt="Burger project">
             <div class="card-body">
               <h5 class="card-title text-center">Burger project template</h5>
@@ -154,7 +189,7 @@
           </div>
         </div>
       </div>
-      <div class="section d-flex flex-column">
+      <div id="skills" class="section d-flex flex-column">
         <div class="code-icon align-self-center">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M13 7H7v6h6V7z" />
