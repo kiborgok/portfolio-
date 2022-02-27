@@ -34,3 +34,35 @@ nav{
 .tick-icon{
     width: 100%;
 }
+
+@media only screen and (max-width: 500px){
+    #prof-sec{
+        flex-direction: column-reverse;
+        margin-top: 5rem!important;
+    }
+    #intro-part{
+        align-self: center;
+        margin-top: 20px;
+    }
+    .card{
+        margin: 0px;
+        margin-top: 40px;
+    }
+    .w-50{
+        width: 90%!important;
+    }
+    .p-5{
+        padding: 1rem!important
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col-5{
+        display: flex;
+        width: 90%;
+        align-self: center;
+    }
+    .col-6{
+        width: 100%;
+    }
+}
