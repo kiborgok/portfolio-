@@ -2,8 +2,17 @@
     font-family: 'Poppins';
 }
 
+body{
+    background-color: beige; 
+    color: midnightblue;
+}
+nav{
+    background-color: blueviolet;
+}
+
 .my-name{
     font-size: 28px;
+    color: white;
 }
 
 .nav-p{
