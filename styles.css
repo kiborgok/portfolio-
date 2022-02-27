@@ -3,7 +3,6 @@
 }
 
 .my-name{
-    font-family: Lobster;
     font-size: 28px;
 }
 
@@ -13,10 +12,6 @@
 
 .code-icon{
     width: 60px;
-}
-
-.projects{
-    margin-top: 40px;
 }
 
 .card{
